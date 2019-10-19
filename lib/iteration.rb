@@ -19,7 +19,7 @@ def find_greater_pair(src)
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
-    if src[row_index][element_index] > [row_index][element_index+1]
+    if src[row_index][element_index] > src[row_index][element_index+1]
     high_value = src[row_index][element_index]
   else
     high_value = src[row_index][element_index]
