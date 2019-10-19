@@ -21,6 +21,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[row_index][element_index] > [row_index][element_index+1]
     high_value = src[row_index][element_index]
+  else
+    high_value = src[row_index][element_index]
     new_array.push(high_value)
     element_index += 2
   end
